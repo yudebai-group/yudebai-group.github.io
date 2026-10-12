@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta id="metaDesc" name="description" content="Yude Bai — Tiangong University">
+  <title>Yude Bai — Tiangong University</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="apple-touch-icon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+
+  <header class="topbar">
+    <div class="container bar">
+      <a class="brand" href="#top">
+        <img class="brand-icon" src="images/favicon.png" alt="">
+        <span data-i18n="brand">Yude Bai</span>
+      </a>
+      <nav class="nav">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#news" data-i18n="navNews">News</a>
+        <a href="#publications" data-i18n="navPubs">Publications</a>
+        <a href="#projects" data-i18n="navProjects">Projects</a>
+        <a href="#patents" data-i18n="navPatents">Patents &amp; Software</a>
+        <a href="#students" data-i18n="navStudents">Students</a>
+      </nav>
+      <button id="langToggle" type="button">中文</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" aria-label="Introduction">
+      <img class="avatar" src="images/photo.jpg" alt="Portrait of Yude Bai">
+      <div class="hero-body">
+        <h1 data-i18n="heroName">Yude Bai 白裕德</h1>
+        <p class="role" data-i18n="heroRole">Lecturer · Master’s Supervisor</p>
+        <p class="school" data-i18n="heroSchool">School of Software, Tiangong University · 天津工业大学软件学院</p>
+        <p class="office" data-i18n="heroOffice">Office: Room C507, School of Software</p>
+        <div class="contact">
+          <a class="chip" href="mailto:baiyude@tiangong.edu.cn">✉ baiyude@tiangong.edu.cn</a>
+          <a class="chip" id="scholarLink" href="https://scholar.google.com/citations?user=FvdC8R8AAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">🎓 <span data-i18n="scholarLabel">Google Scholar</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <h2 data-i18n="aboutTitle">About</h2>
+      <div id="aboutBody" class="prose"></div>
+      <h3 class="sub" data-i18n="interestsTitle">Research Interests</h3>
+      <div id="interestChips" class="chips"></div>
+    </section>
+
+    <section id="news" class="container">
+      <h2 data-i18n="newsTitle">🔥 News</h2>
+      <ul id="newsList" class="news"></ul>
+    </section>
+
+    <section id="publications" class="container">
+      <h2 data-i18n="pubsTitle">📝 Publications</h2>
+      <div id="filters" class="filters"></div>
+      <div id="pubGroups"></div>
+    </section>
+
+    <section id="projects" class="container">
+      <h2 data-i18n="projectsTitle">🔬 Research Projects</h2>
+      <div id="projectList"></div>
+    </section>
+
+    <section id="patents" class="container">
+      <h2 data-i18n="patentsTitle">📜 Patents &amp; Software</h2>
+      <div id="patentList"></div>
+    </section>
+
+    <section id="students" class="container">
+      <h2 data-i18n="studentsTitle">🎓 Students</h2>
+      <div id="studentsList"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p data-i18n="footer">© 2026 Yude Bai · School of Software, Tiangong University · Hosted on GitHub Pages</p>
+      <p><span data-i18n="updated">Last updated</span>: 2026-10</p>
+    </div>
+  </footer>
+
+  <dialog id="pdfDialog" aria-label="PDF preview">
+    <div class="dlg-head">
+      <span id="pdfTitle"></span>
+      <div class="dlg-actions">
+        <a id="pdfExt" href="#" target="_blank" rel="noopener">↗ DOI</a>
+        <button id="pdfClose" type="button" aria-label="Close">✕</button>
+      </div>
+    </div>
+    <iframe id="pdfFrame" title="Paper PDF"></iframe>
+  </dialog>
+
+  <script src="data/content.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
