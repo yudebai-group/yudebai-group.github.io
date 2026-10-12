@@ -155,7 +155,13 @@ section h2 { font-size: 23px; margin: 0 0 16px; letter-spacing: -0.3px; }
 .pub-authors { font-size: 14px; color: #555; margin: 0 0 5px; line-height: 1.55; }
 .pub-authors .self { color: #111; }
 sup { color: #c5221f; font-weight: 700; }
-.pub-venue { font-size: 13.5px; color: var(--muted); margin: 0 0 9px; }
+.pub-venue {
+  display: inline-block;
+  font-size: 13.5px; font-weight: 700; letter-spacing: 0.2px;
+  color: #123a5f; background: #e9f1fa;
+  border: 1px solid #cfe2f6; border-radius: 6px;
+  padding: 2px 10px; margin: 0 0 9px;
+}
 .pub-links { display: flex; gap: 9px; flex-wrap: wrap; }
 
 .btn {
