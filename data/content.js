@@ -260,20 +260,20 @@ const NEWS = [
 
 const PROJECTS = {
   pi: [
-    { en: 'NSFC Young Scientists Fund (Category C) — Learning and Evolution Mechanisms of Malicious Behavior Patterns in Intelligent Terminal Ecosystems', zh: '国家自然基金青年科学基金项目（C类）— 智能终端生态中恶意行为模式学习与演化机制研究', meta: { en: '2027–2029 · ¥300K · Ongoing', zh: '2027–2029 · 30万 · 在研' } },
-    { en: 'Industry project — Trusted Testing Software for Cloud-Chain Symbiotic Architectures', zh: '横向项目 — 针对云链共生架构的可信测试软件开发', meta: { en: '2024 · ¥50K · Completed', zh: '2024 · 5万 · 结题' } },
-    { en: 'Industry project — Intelligent Management and Privacy-Preserving Algorithms for River & Lake Data', zh: '横向项目 — 河湖数据智能管护与隐私保护算法研究', meta: { en: '2025 · ¥70K · Completed', zh: '2025 · 7万 · 结题' } },
+    { en: 'NSFC Young Scientists Fund (Category C) — Learning and Evolution Mechanisms of Malicious Behavior Patterns in Intelligent Terminal Ecosystems', zh: '国家自然基金青年科学基金项目（C类）— 智能终端生态中恶意行为模式学习与演化机制研究', meta: { en: '2027–2029 · Ongoing', zh: '2027–2029 · 在研' } },
+    { en: 'Industry project — Trusted Testing Software for Cloud-Chain Symbiotic Architectures', zh: '横向项目 — 针对云链共生架构的可信测试软件开发', meta: { en: '2024 · Completed', zh: '2024 · 结题' } },
+    { en: 'Industry project — Intelligent Management and Privacy-Preserving Algorithms for River & Lake Data', zh: '横向项目 — 河湖数据智能管护与隐私保护算法研究', meta: { en: '2025 · Completed', zh: '2025 · 结题' } },
     { en: 'Industry project — Data Filtering and Cleaning for Prognosis Prediction of Primary Liver Cancer after RFA', zh: '横向项目 — 原发性肝癌射频消融术后的预后预测模型数据过滤及清洗', meta: { en: '2025–2026 · Completed', zh: '2025–2026 · 结题' } },
-    { en: 'Industry project — Data Conversion and Interface Integration Technology', zh: '横向项目 — 数据转换与接口集成技术', meta: { en: '2026 · ¥49.5K · Ongoing', zh: '2026 · 4.95万 · 在研' } },
+    { en: 'Industry project — Data Conversion and Interface Integration Technology', zh: '横向项目 — 数据转换与接口集成技术', meta: { en: '2026 · Ongoing', zh: '2026 · 在研' } },
   ],
   joined: [
-    { en: 'NSFC General Program — Interpretable Encoding and De Novo Design of Nucleic Acid Functional Sequences', zh: '国家自然科学基金面上项目 — 核酸功能序列可解释编码表征学习与从头设计方法研究', meta: { en: '2027–2030 · ¥500K', zh: '2027–2030 · 50万' } },
-    { en: 'National Key R&D Program — Secure Sharing Mechanisms and Trusted Analysis for Cross-Cohort Data', zh: '国家重点研发计划 — 跨队列数据安全共享机制和可信分析技术研究', meta: { en: '2021–2024 · ¥3.67M', zh: '2021–2024 · 367万' } },
-    { en: 'NSFC Young Scientists Fund (C) — Explainability of ML-Based Android Malware Detection', zh: '国家自然科学基金青年科学基金项目（C类）— 基于机器学习的安卓恶意软件检测模型的可解释性研究', meta: { en: '2022–2024 · ¥300K', zh: '2022–2024 · 30万' } },
-    { en: 'NSFC General Program — Analysis Methods for Loops and Recursion', zh: '国家自然科学基金面上项目 — 循环和递归的分析方法研究', meta: { en: '2019–2022 · ¥650K', zh: '2019–2022 · 65万' } },
-    { en: 'NSFC General Program — Security Technologies for Mobile Applications under Ubiquitous Access', zh: '国家自然科学基金面上项目 — 泛在接入条件下移动应用安全关键技术研究', meta: { en: '2016–2019 · ¥775K', zh: '2016–2019 · 77.5万' } },
-    { en: 'Tianjin Natural Science Foundation Key Program — Data Intelligence Models for Petrochemical Production Management', zh: '天津市自然科学基金重点项目 — 石化生产管控工业软件数据智能模型的研究与应用', meta: { en: '2025–2028 · ¥200K', zh: '2025–2028 · 20万' } },
-    { en: 'Tianjin Manufacturing High-Quality Development Program — Digital-Intelligence Safety Platform for the Energy Industry', zh: '天津市制造业高质量发展专项 — 能源工业安全生产数智化管控平台研发', meta: { en: '2024–2026 · ¥1.5M', zh: '2024–2026 · 150万' } },
+    { en: 'NSFC General Program — Interpretable Encoding and De Novo Design of Nucleic Acid Functional Sequences', zh: '国家自然科学基金面上项目 — 核酸功能序列可解释编码表征学习与从头设计方法研究', meta: { en: '2027–2030', zh: '2027–2030' } },
+    { en: 'National Key R&D Program — Secure Sharing Mechanisms and Trusted Analysis for Cross-Cohort Data', zh: '国家重点研发计划 — 跨队列数据安全共享机制和可信分析技术研究', meta: { en: '2021–2024', zh: '2021–2024' } },
+    { en: 'NSFC Young Scientists Fund (C) — Explainability of ML-Based Android Malware Detection', zh: '国家自然科学基金青年科学基金项目（C类）— 基于机器学习的安卓恶意软件检测模型的可解释性研究', meta: { en: '2022–2024', zh: '2022–2024' } },
+    { en: 'NSFC General Program — Analysis Methods for Loops and Recursion', zh: '国家自然科学基金面上项目 — 循环和递归的分析方法研究', meta: { en: '2019–2022', zh: '2019–2022' } },
+    { en: 'NSFC General Program — Security Technologies for Mobile Applications under Ubiquitous Access', zh: '国家自然科学基金面上项目 — 泛在接入条件下移动应用安全关键技术研究', meta: { en: '2016–2019', zh: '2016–2019' } },
+    { en: 'Tianjin Natural Science Foundation Key Program — Data Intelligence Models for Petrochemical Production Management', zh: '天津市自然科学基金重点项目 — 石化生产管控工业软件数据智能模型的研究与应用', meta: { en: '2025–2028', zh: '2025–2028' } },
+    { en: 'Tianjin Manufacturing High-Quality Development Program — Digital-Intelligence Safety Platform for the Energy Industry', zh: '天津市制造业高质量发展专项 — 能源工业安全生产数智化管控平台研发', meta: { en: '2024–2026', zh: '2024–2026' } },
   ],
 };
 
