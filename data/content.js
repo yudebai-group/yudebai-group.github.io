@@ -43,7 +43,7 @@ const PAPERS = [
     ranks: ['CCF A'], roles: ['corr'],
     title: 'LeoDroid: An LLM-based Few-Shot Multi-Label Detection for Android Malware',
     authors: ['Minhong Dong', 'Liyuan Liu', 'Qi Guo', 'Hongpeng Bai', 'Ruijie Gong', 'Yude Bai*', 'Wenying He', 'Ji Zhang', 'Ze Wang', 'Guangquan Xu*'],
-    url: 'https://doi.org/10.1109/SPW.2025.00042',
+    url: 'https://doi.org/10.1109/SPW67851.2025.00042',
   },
   {
     id: 'argusdroid', group: 'fc', year: 2023,
