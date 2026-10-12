@@ -22,7 +22,7 @@ const PAPERS = [
   },
   {
     id: 'dualdis', group: 'fc', year: 2026,
-    venue: 'WWW 2026 (Oral)',
+    venue: 'WWW 2026',
     ranks: ['CCF A'], roles: ['corr', 'oral'],
     title: 'DualDis: A Dual Disentanglement Network for Vehicle Re-identification',
     authors: ['Wenying He', 'Feiyu Wang', 'Guangquan Xu', 'Yude Bai*', 'Fei Guo*'],
@@ -39,7 +39,7 @@ const PAPERS = [
   },
   {
     id: 'leodroid', group: 'fc', year: 2025,
-    venue: 'IEEE S&P 2025 (HMISA Workshop)',
+    venue: 'IEEE S&P 2025 (HMISA)',
     ranks: ['CCF A'], roles: ['corr'],
     title: 'LeoDroid: An LLM-based Few-Shot Multi-Label Detection for Android Malware',
     authors: ['Minhong Dong', 'Liyuan Liu', 'Qi Guo', 'Hongpeng Bai', 'Ruijie Gong', 'Yude Bai*', 'Wenying He', 'Ji Zhang', 'Ze Wang', 'Guangquan Xu*'],
@@ -47,7 +47,7 @@ const PAPERS = [
   },
   {
     id: 'argusdroid', group: 'fc', year: 2023,
-    venue: 'Science China Information Sciences (SCIS)',
+    venue: 'SCIS 2023',
     ranks: ['CCF A'], roles: ['first'],
     title: 'ArgusDroid: Detecting Android Malware Variants by Mining Permission-API Knowledge Graph',
     authors: ['Yude Bai', 'Sen Chen*', 'Zhenchang Xing', 'Xiaohong Li*'],
@@ -74,7 +74,7 @@ const PAPERS = [
   },
   {
     id: 'traj-privacy', group: 'fc', year: 2026,
-    venue: 'IEEE Internet of Things Journal',
+    venue: 'IoTJ 2026',
     ranks: ['SCI 1区'], roles: ['first'],
     title: 'Rethinking the Reliability of Trajectory Privacy through Group Based Semantic Transition',
     authors: ['Yude Bai', 'Zitian Liu', 'Lyuchuan Wei', 'Minhong Dong', 'Guangquan Xu', 'Xiaoqiang Di', 'Pan Gao*', 'Wei Yu*', 'Wenying He*'],
@@ -82,14 +82,14 @@ const PAPERS = [
   },
   {
     id: 'llm-audit-poster', group: 'fc', year: 2026,
-    venue: 'RAID 2026 (Poster)',
+    venue: 'RAID 2026',
     ranks: ['CCF B'], roles: ['corr', 'poster'],
     title: 'A Human-Guided LLM Audit for Security Documentation Failures',
     authors: ['Yude Bai', 'Ai Wang', 'Minhong Dong', 'Qi Guo', 'Weizhe Wang', 'Zhaoyu Qiu', 'Hongpeng Bai*', 'Wenying He*'],
   },
   {
     id: 'multiprompt', group: 'fc', year: 2026,
-    venue: { en: 'Journal of Chinese Computer Systems', zh: '小型微型计算机系统' },
+    venue: { en: 'J. Chin. Comput. Syst. 2026', zh: '小型微型计算机系统 2026' },
     ranks: ['中文 T2'], roles: ['first'],
     title: { en: 'Multi-Prompt Strategy-Driven Multi-Label Detection for Android Malware', zh: '多提示策略驱动的安卓恶意软件多标签检测' },
     authors: ['白裕德', '梁鑫淼', '董敏弘', '许光全', '胡帅', '余韦*', '王萌*', '何文颖*'],
@@ -131,7 +131,7 @@ const PAPERS = [
   },
   {
     id: 'comnet', group: 'fc', year: 2021,
-    venue: 'Computer Networks',
+    venue: 'COMNET 2021',
     ranks: ['CCF B'], roles: ['first'],
     title: 'Comparative Analysis of Feature Representations and Machine Learning Methods in Android Family Classification',
     authors: ['Yude Bai', 'Zhenchang Xing', 'Duoyuan Ma', 'Xiaohong Li*', 'Zhiyong Feng'],
@@ -141,7 +141,7 @@ const PAPERS = [
   /* ---------------------------- Supervised / Collaborative --------------- */
   {
     id: 'limr', group: 'sp', year: 2026,
-    venue: 'IEEE Transactions on Services Computing (TSC)',
+    venue: 'TSC 2026',
     ranks: ['CCF A'], roles: ['co'],
     title: 'LIMR: Intent-Aware Mashup API Recommendation via LLM-Augmented Multi-Scale Fusion',
     authors: ['Yao Zhang', 'Yude Bai', 'Minhong Dong', 'Keqing Cen', 'Ji Zhang', 'Qiang Hu*', 'Wei Ma', 'Yongqiang Lyu', 'Ruitao Feng', 'Xiaohong Li*', 'Junjie Wang', 'Lingxiao Jiang', 'Yang Liu'],
@@ -150,7 +150,7 @@ const PAPERS = [
   },
   {
     id: 'knowledge-is-power', group: 'sp', year: 2026,
-    venue: 'IEEE Transactions on Mobile Computing (TMC)',
+    venue: 'TMC 2026',
     ranks: ['CCF A'], roles: ['co'],
     title: 'Knowledge is Power: A Knowledge Graph-Based Approach for Mobile Malware Traceability Analysis',
     authors: ['Yao Zhang', 'Guangquan Xu', 'Ruitao Feng', 'Xiaohong Li*', 'Sen Chen*', 'Zhenchang Xing', 'Yude Bai', 'Yongqiang Lyu', 'Wei Gong', 'Xibin Zhao'],
@@ -159,7 +159,7 @@ const PAPERS = [
   },
   {
     id: 'rubato', group: 'sp', year: 2026,
-    venue: 'IEEE Transactions on Dependable and Secure Computing (TDSC)',
+    venue: 'TDSC 2026',
     ranks: ['CCF A'], roles: ['co'],
     title: 'Rubato: Efficient Post-Quantum Asynchronous Distributed Randomness Beacon with Integrated Consensus',
     authors: ['Linghe Yang', 'Tonghong Chong', 'Jian Liu', 'Jingyi Cui', 'Guangquan Xu*', 'Yude Bai', 'Lei Zhang', 'Tao Luo'],
@@ -177,7 +177,7 @@ const PAPERS = [
   },
   {
     id: 'cross-domain-trajectory', group: 'sp', year: 2025,
-    venue: 'AAAI 2025 (Oral)',
+    venue: 'AAAI 2025',
     ranks: ['CCF A'], roles: ['co', 'oral'],
     title: 'Cross-Domain Trajectory Association Based on Hierarchical Spatiotemporal Enhanced Attention Hypergraph',
     authors: ['Chenlong Wu', 'Ze Wang*', 'Keqing Cen', 'Yude Bai', 'Jin Hao'],
@@ -186,7 +186,7 @@ const PAPERS = [
   },
   {
     id: 'tosem-key-aspects', group: 'sp', year: 2021,
-    venue: 'ACM Transactions on Software Engineering and Methodology (TOSEM)',
+    venue: 'TOSEM 2021',
     ranks: ['CCF A'], roles: ['co'],
     title: 'Detecting and Augmenting Missing Key Aspects in Vulnerability Descriptions',
     authors: ['Hao Guo', 'Sen Chen*', 'Zhenchang Xing', 'Xiaohong Li*', 'Yude Bai', 'Jiamou Sun'],
@@ -195,7 +195,7 @@ const PAPERS = [
   },
   {
     id: 'grn-multiview', group: 'sp', year: 2026,
-    venue: 'Briefings in Bioinformatics',
+    venue: 'BIB 2026',
     ranks: ['SCI 2区'], roles: ['co'],
     title: 'Revealing Hidden Regulatory Dependencies: Multi-Perspective Graph Learning for Single-Cell Gene Regulatory Network Inference',
     authors: ['Wenying He', 'Rentao Zhang', 'Yaowei Zhu', 'Haolu Zhou', 'Yude Bai', 'Liang Yang', 'Fei Guo*'],
@@ -203,7 +203,7 @@ const PAPERS = [
   },
   {
     id: 'lgatformer', group: 'sp', year: 2025,
-    venue: 'IEEE BIBM 2025',
+    venue: 'BIBM 2025',
     ranks: ['CCF B'], roles: ['co'],
     title: 'LGATFormer: A Dual-Path Model Combining Line Graph Attention and Transformer for Gene Regulatory Network Inference',
     authors: ['Wenying He', 'Yaowei Zhu', 'Rentao Zhang', 'Haolu Zhou', 'Yude Bai', 'Fei Guo*'],
@@ -211,7 +211,7 @@ const PAPERS = [
   },
   {
     id: 'diff-se', group: 'sp', year: 2025,
-    venue: 'Journal of Chemical Information and Modeling (JCIM)',
+    venue: 'JCIM 2025',
     ranks: ['SCI 2区'], roles: ['co'],
     title: 'Diff-SE: A Diffusion-Augmented Contrastive Learning Framework for Super-Enhancer Prediction',
     authors: ['Haolu Zhou', 'Yu Han', 'Yude Bai', 'Yun Zuo', 'Wenying He*', 'Fei Guo*'],
@@ -219,7 +219,7 @@ const PAPERS = [
   },
   {
     id: 'dummy-trajectory', group: 'sp', year: 2025,
-    venue: 'IEEE Internet of Things Journal',
+    venue: 'IoTJ 2025',
     ranks: ['SCI 1区'], roles: ['co'],
     title: 'Dummy-Trajectory Synthesis: A Privacy-Preserving Approach for Semantic Trajectory Data in IoT-Based LBSN',
     authors: ['Minhong Dong', 'Ze Wang*', 'Zhuo Han', 'Xiaoqi Wang', 'Yude Bai', 'Xiaohu Ye', 'Guangquan Xu*', 'Naixue Xiong'],
@@ -227,7 +227,7 @@ const PAPERS = [
   },
   {
     id: 'pefn', group: 'sp', year: 2025,
-    venue: 'IEEE Internet of Things Journal',
+    venue: 'IoTJ 2025',
     ranks: ['SCI 1区'], roles: ['co'],
     title: 'PEFN: A Patches Enhancement and Hierarchical Fusion Network for Robust Vehicle Re-Identification',
     authors: ['Wenying He', 'Guangquan Xu*', 'Feiyu Wang', 'Fei Guo*', 'Yude Bai', 'Neal N. Xiong'],
@@ -235,7 +235,7 @@ const PAPERS = [
   },
   {
     id: 'nbcr-ac4c', group: 'sp', year: 2024,
-    venue: 'Journal of Chemical Information and Modeling (JCIM)',
+    venue: 'JCIM 2024',
     ranks: ['SCI 2区'], roles: ['co'],
     title: 'NBCR-ac4C: A Deep Learning Framework Based on Multivariate BERT for Human mRNA N4-Acetylcytidine Sites Prediction',
     authors: ['Wenying He', 'Yu Han', 'Yun Zuo', 'Yude Bai', 'Fei Guo*'],
